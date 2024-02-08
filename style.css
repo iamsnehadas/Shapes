@@ -1,7 +1,6 @@
 body {
     margin: 0;
     overflow: hidden;
-    background: linear-gradient(90deg, #000, #00f); /* Blue to black gradient */
     background-color: #000;
 }
 
@@ -9,7 +8,7 @@ body {
     position: absolute;
     width: 100px;
     height: 100px;
-    border: 2px solid #fff; /* White border (hollow shape) */
+    border: 2px solid #fff; 
     animation: bounceAndMorph 2s infinite alternate;
 }
 
@@ -22,3 +21,28 @@ body {
     }
 }
 
+footer{
+    width: 100%;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    color: rgba(250, 235, 215, 0.471);
+    opacity: 1;
+    background-color: rgba(1, 1, 1, 0.125);
+}
+
+.addl{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    
+    padding: 20px;
+}
+
+.addl a i {
+    font-size: 30px;
+    color: rgba(250, 235, 215, 0.471);;
+}
