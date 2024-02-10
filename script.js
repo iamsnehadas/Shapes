@@ -26,9 +26,8 @@ function createRandomShape() {
     shapes.push(shape);
 }
 if (window.matchMedia("(max-width: 900px)").matches) {
-    setInterval(createRandomShape, 1000);
-}
-if (window.matchMedia("(min-width: 915px)").matches) {
     setInterval(createRandomShape, 2000);
 }
-setInterval(createRandomShape, 1000);
+if (window.matchMedia("(min-width: 915px)").matches) {
+    setInterval(createRandomShape, 1000);
+}
