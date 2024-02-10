@@ -29,6 +29,6 @@ if (window.matchMedia("(max-width: 900px)").matches) {
     setInterval(createRandomShape, 1000);
 }
 if (window.matchMedia("(min-width: 915px)").matches) {
-    setInterval(createRandomShape, 1000);
+    setInterval(createRandomShape, 2000);
 }
-setInterval(createRandomShape, 500);
+setInterval(createRandomShape, 1000);
